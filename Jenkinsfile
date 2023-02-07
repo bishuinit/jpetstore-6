@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'First Jenkins Pipeline'
-        sh '/mvnw clean compile'
+        sh './mvnw clean compile'
       }
     }
 
